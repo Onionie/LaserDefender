@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea618844d516f1647aa4c9461bd90269, type: 3}
+  m_Name: Wave 2
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 4845429741393664254, guid: bb176ca3a84ca544aa15a8ff29a703b0, type: 3}
+  pathPrefab: {fileID: 4552904745919386011, guid: c85f9214fea53604d9824e06d55db808, type: 3}
+  timeBetwSpawns: 0.5
+  spawnRandomFactor: 0.3
+  numOfEnemies: 5
+  moveSpeed: 2
