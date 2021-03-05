@@ -38,6 +38,10 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         DamageDealer damageDealer = other.gameObject.GetComponent<DamageDealer>();
+        if (!damageDealer)
+        {
+            return;
+        }
         OnHit(damageDealer);
 
     }
@@ -45,6 +49,7 @@ public class Player : MonoBehaviour
     private void OnHit(DamageDealer damageDealer)
     {
         health -= damageDealer.GetDamage();
+        damageDealer.Hit();
 
         if (health <= 0)
         {
