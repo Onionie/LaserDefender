@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3205029909844673481}
   - component: {fileID: -9201670497889356803}
   - component: {fileID: 8573645171125741256}
+  - component: {fileID: -4791269864647493436}
   m_Layer: 0
   m_Name: Player Laser
   m_TagString: Untagged
@@ -115,9 +116,22 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.09, y: 0.33}
   m_Direction: 0
+--- !u!114 &-4791269864647493436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2486130711326126206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6a4ce38edf9a7c4da44706de234259b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 100
