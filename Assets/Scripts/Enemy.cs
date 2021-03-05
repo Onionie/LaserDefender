@@ -5,6 +5,40 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] float health = 100;
+    [SerializeField] float shotCounter;
+    [SerializeField] float minTimeBtwShots = 0.2f;
+    [SerializeField] float maxTimeBtwShots = 3f;
+    [SerializeField] GameObject projectile;
+    [SerializeField] float laserSpeed = 10f;
+
+
+    private void Start()
+    {
+        shotCounter = Random.Range(minTimeBtwShots, maxTimeBtwShots);
+    }
+
+    private void Update()
+    {
+        CountDownAndShoot();
+    }
+
+    private void CountDownAndShoot()
+    {
+        shotCounter -= Time.deltaTime;
+        if (shotCounter <= 0f)
+        {
+            Fire();
+            shotCounter = Random.Range(minTimeBtwShots, maxTimeBtwShots);
+
+        }
+    }
+
+    private void Fire()
+    {
+        GameObject laser = Instantiate(projectile, transform.position, Quaternion.identity) as GameObject;
+        laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -laserSpeed);
+
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
