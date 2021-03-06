@@ -53,8 +53,14 @@ public class Player : MonoBehaviour
 
         if (health <= 0)
         {
-            Destroy(gameObject);
+            Die();
         }
+    }
+
+    private void Die()
+    {
+        FindObjectOfType<SceneLoader>().LoadGameOver();
+        Destroy(gameObject);
     }
 
     private void SetupMoveBoundaries()
