@@ -10,6 +10,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] float maxTimeBtwShots = 3f;
     [SerializeField] GameObject projectile;
     [SerializeField] float laserSpeed = 10f;
+    [SerializeField] int scoreValue = 150;
 
 
     private void Start()
@@ -59,7 +60,13 @@ public class Enemy : MonoBehaviour
 
         if (health <= 0)
         {
-            Destroy(gameObject);
+            Die();
         }
+    }
+
+    private void Die()
+    {
+        FindObjectOfType<GameSession>().AddToScore(scoreValue);
+        Destroy(gameObject);
     }
 }
