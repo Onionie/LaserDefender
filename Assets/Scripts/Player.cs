@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     [Header("Player")]
     [SerializeField] float moveSpeed = 10f;
     [SerializeField] float padding = 1f;
-    [SerializeField] int health = 200;
+    [SerializeField] int health = 3;
 
     [Header("Projectiles")]
     [SerializeField] GameObject laserPrefab;
@@ -46,7 +46,7 @@ public class Player : MonoBehaviour
 
     }
 
-    private void OnHit(DamageDealer damageDealer)
+    public void OnHit(DamageDealer damageDealer)
     {
         health -= damageDealer.GetDamage();
         damageDealer.Hit();
@@ -62,6 +62,12 @@ public class Player : MonoBehaviour
         FindObjectOfType<SceneLoader>().LoadGameOver();
         Destroy(gameObject);
     }
+
+    public int GetHealth()
+    {
+        return health;
+    }
+
 
     private void SetupMoveBoundaries()
     {
