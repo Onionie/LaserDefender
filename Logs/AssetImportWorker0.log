@@ -15,11 +15,11 @@ C:/Users/Oniel Gutierrez/Desktop/Unity/Laser Defender
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49324
+49656
 Successfully changed project path to: C:/Users/Oniel Gutierrez/Desktop/Unity/Laser Defender
 C:/Users/Oniel Gutierrez/Desktop/Unity/Laser Defender
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 69.79 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 73.60 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,35 +35,35 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004154 seconds.
+Registered in 0.002883 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 49.65 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 48.97 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.610 seconds
+- Completed reload, in  2.315 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001727 seconds.
+Registered in 0.001332 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 49.43 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 47.90 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.773 seconds
+- Completed reload, in  1.255 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
 Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
@@ -71,90 +71,13 @@ System memory in use before: 86.6 MB.
 System memory in use after: 86.6 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2259.
-Total: 3.064200 ms (FindLiveObjects: 0.411900 ms CreateObjectMapping: 0.186300 ms MarkObjects: 2.292700 ms  DeleteObjects: 0.171300 ms)
+Total: 2.897400 ms (FindLiveObjects: 0.313800 ms CreateObjectMapping: 0.172800 ms MarkObjects: 2.238100 ms  DeleteObjects: 0.171100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/StartMenu.unity
-  artifactKey: Guid(05448054729355a43a43e7a467d79712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/StartMenu.unity using Guid(05448054729355a43a43e7a467d79712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906a7419773e690ef95eccc070928239') in 0.033523 seconds
-  Import took 0.038363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 78.985720 seconds.
-  path: Assets/Scenes/mainGame.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/mainGame.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5de77cb41634b6030f5b2fafe0d3d9') in 0.049593 seconds
-  Import took 0.055410 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001333 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.687 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.8 MB.
-System memory in use after: 85.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2262.
-Total: 4.609200 ms (FindLiveObjects: 0.437000 ms CreateObjectMapping: 0.228700 ms MarkObjects: 3.747800 ms  DeleteObjects: 0.192700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001419 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.706 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.1 MB.
-System memory in use after: 86.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2265.
-Total: 4.403700 ms (FindLiveObjects: 0.570300 ms CreateObjectMapping: 0.245000 ms MarkObjects: 3.385000 ms  DeleteObjects: 0.200500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002646 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.340 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.3 MB.
-System memory in use after: 86.3 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2268.
-Total: 5.738300 ms (FindLiveObjects: 1.568100 ms CreateObjectMapping: 0.673500 ms MarkObjects: 3.305900 ms  DeleteObjects: 0.186500 ms)
+  path: Assets/Scenes/GameOver.unity
+  artifactKey: Guid(7c7006dc8a3fa7a4bb6d96b0b28d5027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameOver.unity using Guid(7c7006dc8a3fa7a4bb6d96b0b28d5027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47613879b7d4c2c389e3960cdc20f7f8') in 0.069670 seconds
+  Import took 0.075054 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
