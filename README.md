@@ -1,10 +1,9 @@
 # Laser Defender
 A simple and fun space shooter game made for my Game Programming class. Try your best to destroy as much enemies as you can without losing all your health.
 
-# What I've Learned
-- More experience with Unity 2D
-- More coding with C# language
-- Visual Studio
+# Tools Used
+- Unity 2D
+- Visual Studios
 
 # Screenshots
 
